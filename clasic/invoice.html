@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Invoice Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="max-w-4xl mx-auto p-6 bg-white text-slate-500 shadow-md rounded mt-10 border rounded font-sans">
+    <div class="border-b pb-8 mb-8 flex items-center justify-between">
+      <div class="flex-1 text-left">
+        <p class="text-sm text-slate-500">Github: github.com/manqur</p>
+        <p class="text-sm text-slate-500">Phone: +968 72869649</p>
+        <p class="text-sm text-slate-500">Website: Elekotech.com</p>
+      </div>
+
+      <div class="flex-1 text-center">
+        <img src="https://elekotech.com/assets/logo.png" alt="ElekoTech" class="h-16 w-auto mx-auto">
+      </div>
+
+      <div class="flex-1 text-right">
+        <p class="text-sm text-slate-500">Invoice #: 123456</p>
+        <p class="text-sm text-slate-500">Date: 2025-11-10</p>
+      </div>
+    </div>
+
+
+    <div class="pb-4 mb-4 flex items-start">
+      <!-- Customer -->
+<!--      <div class="mb-4">-->
+<!--        <h2 class="font-semibold text-slate-700">Bill To:</h2>-->
+<!--        <p class="text-slate-600">Client Name</p>-->
+<!--        <p class="text-sm text-slate-500">Client Address</p>-->
+<!--        <p class="text-sm text-slate-500">Client City, Country</p>-->
+<!--        <p class="text-sm text-slate-500">Phone: (987) 654-3210</p>-->
+<!--        <p class="text-sm text-slate-500">Email: client@example.com</p>-->
+<!--      </div>-->
+    </div>
+
+    <table class="min-w-full table-auto mb-24" style="text-align: center;">
+      <thead>
+        <tr class="bg-blue-500 text-white">
+          <th class="px-4 py-2 text-right">صور</th>
+          <th class="px-4 py-2 text-right">المنتج</th>
+          <th class="px-4 py-2 text-right">الکمبه</th>
+          <th class="px-4 py-2 text-right">سعر الوحده</th>
+          <th class="px-4 py-2 text-right">المبلغ</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border px-4 py-2">  <img src="../assets/pro1.png" style="width: 100px; height: 100px; object-fit: cover;"></td>
+          <td class="border px-4 py-2">VitaEssence Drops</td>
+          <td class="border px-4 py-2">1</td>
+          <td class="border px-4 py-2">$ 50.00</td>
+          <td class="border px-4 py-2 text-right">$ 50.00</td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2"><img src="../assets/pro2.png" style="width: 100px; height: 100px; object-fit: cover;"></td>
+          <td class="border px-4 py-2">VoltGuard SmartPlug</td>
+          <td class="border px-4 py-2">2</td>
+          <td class="border px-4 py-2">$ 60.00</td>
+          <td class="border px-4 py-2 text-right">$ 120.00</td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">  <img src="../assets/pro3.jpg" style="width: 100px; height: 100px; object-fit: cover;"></td>
+          <td class="border px-4 py-2">SkinBloom Cream</td>
+          <td class="border px-4 py-2">1</td>
+          <td class="border px-4 py-2">$ 100.00</td>
+          <td class="border px-4 py-2 text-right">$ 100.00</td>
+        </tr>
+        <tr>
+          <td colspan="4" class="border px-4 py-2 text-right">Subtotal</td>
+          <td class="border px-4 py-2 text-right">$ 270.00</td>
+        </tr>
+        <tr>
+          <td colspan="4" class="border px-4 py-2 text-right">Tax 5%</td>
+          <td class="border px-4 py-2 text-right">$ 13.50</td>
+        </tr>
+        <tr class="font-bold">
+          <td colspan="4" class="border px-4 py-2 text-right">Total</td>
+          <td class="border px-4 py-2 text-right">$ 283.50</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="mb-7"></div>
+    <div class="text-md text-slate-500 border-t pt-8 mt-8 text-center">
+      <p>Bank Name: Bank of America.</p>
+      <p>Bank Account: 123456789</p>
+      <p>Thank you !</p>
+    </div>
+
+  </div>
+</body>
+</html>
