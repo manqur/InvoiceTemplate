@@ -1,6 +1,6 @@
 ![HTML Invoice Design](https://elekotech.com/assets/invoices/HTML-Invoices.png)
 
-# HTML Invoice Template – ElekoTech
+# HTML Invoice Template
 
 A clean, professional, and fully responsive **HTML Invoice Template**. Ideal for developers, freelancers, and businesses who need a simple HTML-based invoice layout with product images, RTL support, and clear payment breakdown.
 
@@ -21,4 +21,4 @@ A clean, professional, and fully responsive **HTML Invoice Template**. Ideal for
 
 ### 📁 Clone this repository:
 ```bash
-git clone https://github.com/manqur/html-invoice-template.git
+git clone https://github.com/manqur/InvoiceTemplate.git
